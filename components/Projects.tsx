@@ -11,7 +11,7 @@ export function MLCardsCarousel() {
   return (
     <div className=" w-80% h-full mt-4 py-20" id="projects">
       <div className="flex flex-col justify-center items-center">
-        <h2 className="text-2xl md:text-5xl font-bold text-neutral-800 dark:text-white font-sans mx-auto pl-4 md:pl-8">
+        <h2 className="text-2xl md:text-4xl font-bold text-neutral-800 dark:text-white font-sans mx-auto pl-4 md:pl-8">
           PROJECTS
         </h2>
         <div className="flex flex-col md:flex-row items-center md:justify-end mt-4">
