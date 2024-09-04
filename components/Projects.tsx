@@ -9,17 +9,15 @@ export function MLCardsCarousel() {
   ));
 
   return (
-
     <div className=" w-80% h-full mt-4 py-20" id="projects">
       <div className="flex flex-col justify-center items-center">
-
-      <h2 className="max-w-7xl pl-4 mx-auto text-5xl md:text-5xl font-bold text-neutral-800 dark:text-white font-sans">
-         Projects{" "}
-      </h2>
-      <div className="flex justify-end">
-        <p className="  pt-4  text-base text-gray-300">
-          Swipe the cards and click them for Project links & details.
-        </p>
+        <h2 className="text-4xl md:text-5xl font-bold text-neutral-800 dark:text-white font-sans mx-auto pl-4 md:pl-8">
+          Projects
+        </h2>
+        <div className="flex flex-col md:flex-row items-center md:justify-end mt-4">
+          <p className="text-sm md:text-base text-gray-300 text-center md:text-right px-4 md:px-0">
+            Swipe the cards and click them for Project links & details.
+          </p>
         </div>
       </div>
       <Carousel items={cards} />
@@ -34,7 +32,7 @@ interface MLContentProps {
   tech: string;
   skills: string;
   description: string;
-  customContent?: React.ReactNode; 
+  customContent?: React.ReactNode;
 }
 
 // MLContent Component
@@ -50,10 +48,10 @@ const MLContent: React.FC<MLContentProps> = ({
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4">
       <p className="text-neutral-600 dark:text-neutral-300 text-base md:text-xl font-sans max-w-3xl mx-auto">
-        
         <p className="  text-justify text-xl text-blue-200 font-bold">{tech}</p>
-        <p className=" pb-8 text-justify text-xl text-blue-100 font-bold">{skills}</p>
-
+        <p className=" pb-8 text-justify text-xl text-blue-100 font-bold">
+          {skills}
+        </p>
         <Image
           src={src1}
           alt={title}
@@ -62,9 +60,12 @@ const MLContent: React.FC<MLContentProps> = ({
           className="w-full max-w-lg mx-auto  rounded-lg"
         />
         <br />
-        <span className="text-base font-medium	font-sans"  dangerouslySetInnerHTML={{ __html: description }} />{" "}
+        <span
+          className="text-base font-medium	font-sans"
+          dangerouslySetInnerHTML={{ __html: description }}
+        />{" "}
       </p>
-      <br/>
+      <br />
       {customContent ? (
         customContent
       ) : (
@@ -274,5 +275,4 @@ Created comprehensive documentation detailing API endpoints and use cases, demon
       />
     ),
   },
- 
 ];

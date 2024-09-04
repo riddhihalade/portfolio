@@ -250,10 +250,18 @@ export const Card = ({
         "
       >
         <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black via-transparent to-transparent z-30 pointer-events-none" />
+        <BlurImage
+          src={card.src}
+          alt={card.title}
+          width={550} // Adjust width to your preference
+          height={750} // Adjust height to your preference
+          className="object-cover z-10 mt-2  rounded-xl"
+        />
+
         <div className="relative z-40 p-8">
           <motion.p
             layoutId={layout ? `title-${card.title}` : undefined}
-            className="text-white text-xl md:text-2xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans mt-1"
+            className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-center font-sans"
           >
             {card.title}
           </motion.p>
@@ -264,13 +272,7 @@ export const Card = ({
             {card.category}
           </motion.p>
         </div>
-        <BlurImage
-          src={card.src}
-          alt={card.title}
-          width={550} // Adjust width to your preference
-          height={750} // Adjust height to your preference
-          className="object-cover z-10 mt-2  rounded-xl"
-        />
+       
       </motion.button>
     </>
   );

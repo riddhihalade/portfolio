@@ -23,22 +23,21 @@ const Hero = () => {
 
 
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[100vw] md:max-w-2xl lg:max-w-[40vw] flex flex-col items-center justify-center overflow-hidden">
-          
-          
-          <TextGenerateEffect
-            words="Hii! I&apos;m Riddhi Halade,"
-            className="text-center text-[500px] md:text-5xl lg:text-4xl mb-7 mt-3"
-          />
+  <div className="w-full max-w-[90vw] md:max-w-2xl lg:max-w-[40vw] flex flex-col items-center justify-center overflow-hidden">
+    
+    <TextGenerateEffect
+      words="Hii! I&apos;m Riddhi Halade,"
+      className="text-center text-[12vw] sm:text-2xl md:text-5xl lg:text-4xl mb-4 mt-3"
+    />
 
-          <p className="text-center md:tracking-wider mb-2 text-sm md:text-lg lg:text-2xl">
-          Skilled Software Developer with Expertise in Data Science and Frontend Development.
-          </p>
+    <p className="text-center tracking-wide mb-3 text-xs md:text-lg lg:text-2xl">
+      Skilled Software Developer with Expertise in Data Science and Frontend Development.
+    </p>
 
-          <p className=" tracking-widest text-xs text-center text-blue-100 max-w-80">
-          I enjoy leveraging machine learning and automation to create efficient, user-friendly, and well-designed applications
-          </p> 
-
+    <p className=" text-xs md:text-sm lg:text-base text-center text-blue-100 w-full max-w-[75vw] md:max-w-[60vw] lg:max-w-[50vw]">
+      I enjoy leveraging machine learning and automation to create efficient, user-friendly, and well-designed applications.
+    </p> 
+  
           {/* <a href="">
             <MagicButton
               title=""
