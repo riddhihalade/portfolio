@@ -15,8 +15,8 @@ export function MLCardsCarousel() {
           Projects
         </h2>
         <div className="flex flex-col md:flex-row items-center md:justify-end mt-4">
-          <p className="text-sm md:text-base text-gray-300 text-center md:text-right px-4 md:px-0">
-            Swipe the cards and click them for Project links & details.
+          <p className="text-sm md:text-lg text-gray-300 text-center md:text-right px-4 md:px-0">
+            Swipe the cards right and click them for Project links & more details.
           </p>
         </div>
       </div>
@@ -86,7 +86,7 @@ const data = [
   {
     title: "DubWiz | Transformer driven Video Dubbing",
     category:
-      "Developed a video dubbing website with React.js and Flask, cutting manual processing by 60%. Integrated OpenAI Whisper, MBart for translation, and Silero with Wave2Lip for 90% accurate lip-sync.",
+      "Developed a video dubbing website using AI automation, React.js and Flask, cutting manual processing by 60%. Integrated OpenAI Whisper, MBart for translation, and Silero with Wave2Lip for 90% accurate lip-sync.",
     src: "/assets/dubwiz5.png",
     description: ``,
     href: "https://github.com/riddhihalade/DubWiz",

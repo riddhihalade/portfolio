@@ -47,10 +47,10 @@ export function PublicationsList() {
           fill="white"/>
       <div className="flex flex-col items-center">
         <h1 className="text-3xl md:text-4xl font-bold text-white p-5 md:p-19 py-10 md:py-15 text-center">
-          Project Publications
+          PROJECT PUBLICATIONS
         </h1>
         <p className="text-sm md:text-base text-gray-400 m-2 text-center">
-          Hover the Cards and preview the publication links.
+          Hover the Cards for Link and Effects.
         </p>
         <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center space-y-6 sm:space-y-0 sm:space-x-6">
           {publications.map((pub, index) => (

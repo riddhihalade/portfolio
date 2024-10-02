@@ -1,4 +1,5 @@
 import { link } from "fs";
+import { title } from "process";
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -45,6 +46,13 @@ export const projects = [
   },
 ];
 
+export const certificates = [
+  {
+    title: "IBM Data Science Proffesional Certification by Coursera",
+    link: "https://www.coursera.org/account/accomplishments/specialization/certificate/AXBD4VP9IZVE"
+  }
+]
+
 export const publications = [
   {
     title: "Waste Segregation Using CNN & OpenCV",
@@ -54,9 +62,9 @@ export const publications = [
   },
   {
     title: "Devo Connect: Social Media on the Blockchain",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7204393598656667649/",
+    link: "https://www.researchgate.net/publication/382231099_Devo_Connect_Bridging_Social_Communities_on_the_Blockchain",
     description: "",
-    conference: "ISCS 2024 - IEEE, NorthCap University"
+    conference: "ISCS 2024 - ResearchGate, NorthCap University "
   }
 ];
 

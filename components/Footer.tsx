@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10 relative" id="contact">
+    <footer className="w-full my-10 pt-20 pb-10 relative" id="contact">
       {/* Background Grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-86">
         <Image
@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center px-4 md:px-8">
-        <h1 className="text-3xl md:text-4xl lg:max-w-[45vw] text-center">
+        <h1 className="text-2xl md:text-3xl lg:max-w-[45vw] text-center">
             Let&apos;s get in touch!
         </h1>
         <p className="text-gray-200 text-sm md:text-base my-5 text-center">
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <a href="mailto:riddhihalade1@gmail.com">
           <MagicButton
-            title="Mail me"
+            title="riddhihalade1@gmail.com"
             icon={<FaLocationArrow />}
             position="right"
           />

@@ -7,7 +7,7 @@ import { MLCardsCarousel } from "@/components/Projects";
 import { GridBackground } from "@/components/Background"
 import { PublicationsList } from "@/components/Publication";
 import Footer from "@/components/Footer";
-// import CertificationsSection from "@/components/Certification";
+import { CertificationSec } from "@/components/Certifications";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
         <FeaturesSectionDemo />
         <MLCardsCarousel />
         <PublicationsList />
-        {/* <CertificationsSection /> */}
+        <CertificationSec />
         <Footer/>
 
       </div>

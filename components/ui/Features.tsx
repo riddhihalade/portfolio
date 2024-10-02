@@ -19,14 +19,14 @@ export function FeaturesSectionDemo() {
     {
       title: "Machine Learning",
       description:
-        "Pytorch, TensorFlow, Scikit-Learn, NumPy, Pandas, ML Algorithms",
+        "Pytorch, TensorFlow, Scikit-Learn, NumPy, Pandas, CNNs, LSTMs",
       icon: <IconTerminal2 />,
     },
     
     {
       title: "Data Analysis & Visualization (EDA)",
       description:
-        "SQL, Tableau, Power BI Data Modelling, Predictive Analysis",
+        "SQL, Tableau, Power BI, Data Modelling, Predictive Analysis",
       icon: <IconDeviceDesktopAnalytics />,
     },
     {
@@ -35,47 +35,38 @@ export function FeaturesSectionDemo() {
         "Prompt Engineering, LLM fine-tuning, LangChain, Ollama, Open AI, Gemini",
       icon: <IconRobot />,
     },
-    {
-      title: "Frontend Dev",
-      description: "Next.js, React.js, Tailwind CSS, JavaScript, TypeScript",
-      icon: <IconFileTypeHtml />,
-    },
+    
     
     {
-        title: "NLP & Computer Vision ",
+        title: "NLP",
         description:
-          "OpenCV, Spacy, GPT, BERT, Hugging Face Transformers",
+          " Spacy, BERT, GPT, Hugging Face Transformers",
         icon: <IconBrandPython />,
       },
-    {
-      title: "Data Engineering",
-      description:
-        "MySQL, SQLite,  Design & Query Optimization",
-      icon: <IconDatabase />,
-    },
+      {
+        title: "Web Dev",
+        description: "Next.js, React.js, Tailwind CSS, JavaScript, Node JS, Flask",
+        icon: <IconFileTypeHtml />,
+      },
+    
     {
         title: "Programming",
         description:
           "Java, Python, DSA, Problem Solving, Version Control",
         icon: <IconHelp />,
       },
-      {
-        title: "Backend ",
-        description: "Node.js, FastAPI, Flask",
-        icon: <IconBrandNodejs />,
-      },
-     
+      
   ];
   return (
     <div id="skills">
 
-    <div className=" my-15">
+    <div className=" my-28">
       <Spotlight className="left-220 top-800 h-[90vh] w-[50vw]" fill="blue" />
       <div className="flex justify-center">
-      <h1 className="text-4xl  font-bold text-white mt-10 pt-20  items-center">Technical Skills</h1>
+      <h1 className="text-4xl  font-bold text-white  pt-20  items-center">Technical Skills</h1>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  relative z-10 py-10 max-w-6xl mx-auto">
         {features.map((feature, index) => (
           <Feature key={feature.title} {...feature} index={index} />
         ))}
