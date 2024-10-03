@@ -18,10 +18,10 @@ export function Publication({
 }: PublicationProps) {
   return (
     <CardSpotlight className="h-72 w-full sm:w-80 md:w-96 flex flex-col items-center text-center">
-      <p className="text-xl md:text-2xl font-bold relative z-20 mt-2 text-white">
+      <p className="text-lg md:text-2xl font-bold relative z-20 mt-2 text-white">
         {conference}
       </p>
-      <div className="text-neutral-200 text-lg md:text-xl mt-4 mb-7 relative z-20">
+      <div className="text-neutral-200 text-base md:text-xl mt-4 mb-7 relative z-20">
         <a
           href={link}
           className="text-blue-300 hover:underline"
@@ -46,7 +46,7 @@ export function PublicationsList() {
           <Spotlight className=" bottom-60 -right-8  h-screen"
           fill="white"/>
       <div className="flex flex-col items-center">
-        <h1 className="text-3xl md:text-4xl font-bold text-white p-5 md:p-19 py-10 md:py-15 text-center">
+        <h1 className="text-xl md:text-4xl font-bold text-white p-5 md:p-19 py-10 md:py-15 text-center">
           PROJECT PUBLICATIONS
         </h1>
         <p className="text-sm md:text-base text-gray-400 m-2 text-center">

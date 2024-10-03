@@ -53,7 +53,7 @@ const Footer = () => {
           Copyright © 2024 Riddhi Halade
         </p>
       </div>
-      <p className="uppercase text-base ">Portfolio Made with Next JS</p>
+
     </footer>
   );
 };

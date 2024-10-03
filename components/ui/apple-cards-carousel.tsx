@@ -246,7 +246,7 @@ export const Card = ({
       <motion.button
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
-        className="rounded-3xl bg-gray-100 dark:bg-black h-60 w-56 md:h-[33rem] md:w-96 overflow-hidden ring-2 ring-white/10 items-start justify-start relative z-10
+        className="rounded-3xl bg-gray-100 dark:bg-black h-62 w-56 md:h-[42rem] md:w-96 overflow-hidden ring-2 ring-white/10 items-start justify-start relative z-10
         "
       >
         <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black via-transparent to-transparent z-30 pointer-events-none" />
@@ -261,13 +261,13 @@ export const Card = ({
         <div className="relative z-40 p-8">
           <motion.p
             layoutId={layout ? `title-${card.title}` : undefined}
-            className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-center font-sans"
+            className="text-white text-base sm:text-base md:text-lg lg:text-xl font-semibold text-center font-sans"
           >
             {card.title}
           </motion.p>
           <motion.p
             layoutId={layout ? `category-${card.category}` : undefined}
-            className="text-grey text-sm md:text-base py-4 font-medium font-sans text-left"
+            className="text-grey text-xs md:text-base py-3 font-medium font-sans text-left"
           >
             {card.category}
           </motion.p>

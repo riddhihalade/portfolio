@@ -9,7 +9,7 @@ interface CertificationProps {
 
 export function Certifications({ title, link }: CertificationProps) {
   return (
-      <div className="flex text-neutral-200 text-lg md:text-3xl mt-4 mb-7 relative z-20">
+      <div className="flex text-neutral-200 text-lg md:text-2xl mt-4 mb-7 relative z-20">
         <IconCertificate className="mr-2 text-blue-300 size={52}" />
         <a
           href={link}
@@ -27,7 +27,7 @@ export function CertificationSec() {
   return (
     <section id="certification">
       <div className="flex flex-col items-center my-10">
-        <h1 className="text-3xl md:text-4xl font-bold text-white my-16 p-10 md:p-19  md:py-25 text-center">
+        <h1 className="text-lg md:text-4xl font-bold text-white my-16 p-10 md:p-19  md:py-25 text-center">
           CERTIFICATIONS
         </h1>
        

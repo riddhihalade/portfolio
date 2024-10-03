@@ -31,11 +31,11 @@ const Hero = () => {
     />
 
     <p className="text-center tracking-wide mb-3 text-xs md:text-lg lg:text-2xl">
-      Skilled Software Developer with Expertise in Data Science and Frontend Development.
+      Skilled Software Developer with Experience in Data Science and Frontend Development.
     </p>
 
     <p className=" text-xs md:text-sm lg:text-base text-center text-blue-100 w-full max-w-[75vw] md:max-w-[60vw] lg:max-w-[50vw]">
-      I enjoy leveraging machine learning and automation to create efficient, user-friendly, and well-designed applications.
+      I enjoy using machine learning and automation to create efficient, user-friendly, and well-designed applications.
     </p> 
   
           {/* <a href="">

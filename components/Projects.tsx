@@ -11,8 +11,8 @@ export function MLCardsCarousel() {
   return (
     <div className=" w-80% h-full mt-4 py-20" id="projects">
       <div className="flex flex-col justify-center items-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-neutral-800 dark:text-white font-sans mx-auto pl-4 md:pl-8">
-          Projects
+        <h2 className="text-2xl md:text-5xl font-bold text-neutral-800 dark:text-white font-sans mx-auto pl-4 md:pl-8">
+          PROJECTS
         </h2>
         <div className="flex flex-col md:flex-row items-center md:justify-end mt-4">
           <p className="text-sm md:text-lg text-gray-300 text-center md:text-right px-4 md:px-0">
@@ -188,7 +188,7 @@ const data = [
 
 <ul>
     <li><strong>Data Management:</strong> Load any datasets into a SQLite database, where data is accessed and queried as part of the pipeline.</li>
-    <li><strong>Agent-Based Architecture:</strong> Managed multiple AI agents with CrewAI, each specializing in optimized data retrieval and analysis tasks.</li>
+    <li><strong>Agent-Based Architecture:</strong>  Agent, for  optimized data retrieval and analysis tasks.</li>
     <li><strong>LLM Integration:</strong> Integrated Llama 3 for natural language query analysis, with logging mechanisms for transparency and accuracy.</li>
     <li><strong>Automated Workflow:</strong> The entire process, from data extraction to report generation, is fully automated, ensuring coherence and precision in the output.</li>
 </ul>"
@@ -196,7 +196,7 @@ const data = [
     ),
   },
   {
-    title: "SmartSelect | Automated ML Pipeline",
+    title: "AutoML | Automated ML Pipeline",
     category:
       "This Streamlit app simplifies ML with CSV uploads for dataset reviews and model recommendations with 90% accuracy. It uses PyCaret to automate model selection, cutting comparison time by 50%.",
     src: "/assets/autoML.png",
