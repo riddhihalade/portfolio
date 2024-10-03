@@ -246,7 +246,7 @@ export const Card = ({
       <motion.button
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
-        className="rounded-3xl bg-gray-100 dark:bg-black h-62 w-56 md:h-[42rem] md:w-96 overflow-hidden ring-2 ring-white/10 items-start justify-start relative z-10
+        className="rounded-3xl bg-gray-100 dark:bg-black h-62 w-56 md:h-[37rem] md:w-96 overflow-hidden ring-2 ring-white/10 items-start justify-start relative z-10
         "
       >
         <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black via-transparent to-transparent z-30 pointer-events-none" />
